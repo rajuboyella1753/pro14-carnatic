@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* nav bar start */
+.nav{
+    height: 16vh;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    flex-wrap: wrap;
+    /* z-index: 1; */
+}
+.nav img{
+    height: 16vh;
+    /* z-index: 0; */
+    width: 8vw;
+    padding: 10px;
+    border-radius: 50%;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+}
+.nav ul .active{
+    color: yellow;
+    height: 20px;
+    background-color: transparent;
+}
+.nav ul .active:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s ease;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.04);
+}
+.nav #search{
+    height: 8vh;
+    width: 30vw;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius:9px
+}
+.nav #search::placeholder{
+    font-size: 16px;
+    padding:10px
+}
+.nav button{
+    height: 40px;
+    width: 100px;
+    margin-top: 34px;
+    margin-left: 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+.nav button a{
+    text-decoration: none;
+    color: #000;
+  }
+  .nav button a:hover{
+    color: #fff;
+  }
+.nav button:hover{
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/* nav bar end */
+
+/* First Div Start */
+
+.container1{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    /* background-image: url(../images/black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: absolute; */
+}
+.container1 img{
+    /* opacity: 0.4; */
+    height: 90vh;
+    width: 100%;
+    /* position:absolute; */
+}
+/* .container1 .content{
+    position: relative;
+    top: 120%;
+    color: #fff;
+} */
+/* First Div end */
+/* Second Div start */
+
+.container2{
+    height: 435vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+}
+.container2 .child1{
+    height: 435vh;
+    width: 20%;
+    float: left;
+    background-color: white;
+    color: #000;
+    position:sticky;
+}
+.container2 .child1 h1{
+    text-decoration: underline;
+}
+.container2 .child1 p i{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container2 .child1 p a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: all 1s ease;
+}
+.container2 .child1 p a:hover{
+    color: red;
+    transform: scale(1.09);
+}
+.container2 .child2{
+    height: 430vh;
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 30px;
+}
+.container2 .child2 h2{
+    margin-top: 15px;
+    margin-left: 60px;
+    text-decoration:none;
+}
+.container2 .child2 #his1{
+    float: right;
+    height: 190px;
+}
+.container2 .child2 .one{
+    left: 8%;
+    top: 3%;
+}
+.container2 .child2 .two{
+    float:unset;
+}
+.container2 .child2 .two p{
+    margin-top: 15px;
+}
+.container2 .child2 #his2{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.container2 .child2 #img2{
+    margin-top: 15px;
+    height: 200px;
+    float: left;
+}
+
+.container2 .child2 .three{
+    float: unset;
+}
+.container2 .child2 .three p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container2 .child2 #his3{
+    margin-top: 10px;
+}
+.container2 .child2  .img3{
+    height: 270px;
+    float: right;
+}
+.container2 .child2  .four{
+    float: unset;
+}
+.container2 .child2  .four p{
+    margin-top: 20px;
+}
+.container2 .child2 .img4{
+    height: 270px;
+    width: 1020px;
+    margin-top: 10px;
+}
+.container2 .child2 #his4{
+    margin-top: 20px;
+}
+.container2 .child2  .img5{
+    float: right;
+    height: 225px;
+    width: 400px;
+}
+.container2 .child2 .five{
+    float: unset;
+}
+.container2 .child2 .five p{
+    margin-top: 20px;
+}
+.container2 .child2 .six{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.container2 .child2 .six #his6{
+    text-decoration: underline;
+}
+.container2 .child2 .six  p{
+    margin-top: 15px;
+}
+.container2 .child2 .six ol{
+    margin-left: 15px;
+}
+.container2 .child2 .six ol li{
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.container2 .child2 .six ol li i{
+    color: red;
+}
+/* Second Div End */
+/* footer start here */
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+   }
+   .footer #res{
+    margin-left: 65%;
+    margin-top: 20px;
+    color: red;
+   }
+   .footer .lis{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   }
+   .footer h2{
+    margin-top: 2px;
+    text-decoration: underline;
+   }
+   .footer ul{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .footer ul li{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    transition: all 1s ease;
+  }
+  .footer ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  .footer address{
+    /* margin-left: 20px; */
+    margin-top: 30px;
+    opacity: 0.4;
+  }

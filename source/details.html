@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnatic World Sign-Up</title>
+    <link rel="shortcut icon" href="../images/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<body>
+    <div class="container">
+
+    </div>    
+<!--     
+    <div class="child">
+        <h2>Carnatic Music</h2>
+        <div class="inputs">
+
+            <div class="fly">
+
+                <div class="first">
+                    <label for="Username">UserName :</label>
+                    <label for="pass1">Enter Password :</label>
+                    <label for="pass2">Confirm Password :</label>
+                </div>
+                <div class="second">
+                    <input type="text" id="Username" placeholder="Enter Here..." required><br>
+                    <input type="password" name="pass" id="pass1" placeholder="Enter Here..." required><br>
+                    <input type="password" name="pass2" id="pass2" placeholder="Enter Here..." required>
+                </div>
+
+            </div>
+            <div class="cont">
+                <input type="checkbox" name="check" id="check" >
+                <p>remember me !</p>
+            </div>
+            <button id="but1"><a href="../music.html">Create Account</a></button> <br>
+            <input type="reset" id="but2" value="Reset">
+        </div>
+    </div> -->
+<div class="conti">
+    <h1>Fill your Details here :</h1>
+    <form name="submit-to-google-sheet" >
+        <input type="text" name="Username" id="Username" placeholder="Your User Name" required> <br>
+        <input type="password" name="Password" id="password" placeholder="Your Password" required> <br>
+        <input type="email" name="Email" id="email" placeholder="Your Email Id" required> <br>
+        <button type="submit" onclick="over()">Submit</button>
+    </form>
+</div>
+
+    <!-- <script src="./detail.js"></script> -->
+    <script>
+       
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyVwiKoJJSEkpP2hvyK1CJHAhfqk1USGOoZ4Hg5D4z3ieMu0ecTREFYOdxj9J_QeNl3zQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+        
+        function over(){
+            alert('Your Data Stored Sucessfully you may leave page.')
+        }
+      </script>
+</body>
+</html>

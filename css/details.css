@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/sign-up.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    position: relative;
+    opacity: 0.9;
+}
+.child{
+    height: 95vh;
+    width: 44%;
+    background-color: rgb(135, 101, 101);
+    position: absolute;
+    top: 3%;
+    margin-left: 55%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-style: groove;
+    background: transparent;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.child h2{
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: underline;
+}
+.child .inputs  label{
+    margin-left: 10%;
+    font-size: 23px;
+    margin-top: 10%;
+
+}
+.child .inputs .fly{
+    display: flex;
+    flex-direction: row;
+    height: 34vh;
+    width: 100%;
+    /* background-color: green; */
+}
+.child .inputs .fly .first{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 34vh;
+    width: 50%;
+    /* background-color: pink; */
+}
+.child .inputs .fly .second{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 34vh;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.child .inputs .fly .second input{
+    height: 40px;
+    width: 99%;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.child .inputs{
+    margin-top: 10%;
+}
+
+.child  .inputs  input{
+    margin-left: 10%;
+    margin-top: 5px;
+    width: 40%;
+    padding: 8px;
+    font-size: 19px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-style: groove;
+    border-radius: 6px;
+}
+.child  .inputs  input::placeholder{
+    padding: 8px;
+}
+.child .inputs  #Username{
+    /* width: 45%; */
+    /* margin-left: 20px; */
+}
+.child .inputs .cont{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-evenly; */
+}
+.child .inputs .cont p{
+    margin-left: 0%;
+}
+.child .inputs .cont #check{
+    height: 15px;
+}
+.child .inputs  #but1{
+    margin-left: 37%;
+    padding: 8px;
+    margin-top: 10%;
+    transition: all 1s ease;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+.child .inputs  #but1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    padding: 6px;
+}
+.child .inputs  #but1:hover{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.child .inputs  #but2{
+    width: 28%;
+    margin-left: 37%;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 19px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    transition: all 1s ease;
+}
+.child .inputs  #but2:hover{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+form{
+    position: absolute;
+    top: 10%;
+    margin-left: 20%;
+}
+.conti{
+    height: 50vh;
+    width: 40%;
+    background-color: transparent;
+    border-style: groove;
+    position:absolute;
+    top: 30%;
+    margin-left: 55%;
+}
+.conti h1{
+    margin-left: 20%;
+}
+.conti form{
+    position: absolute;
+}
+.conti #Username{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 140%;
+    outline: none;
+    border:none;
+    border-radius: 9px;
+}
+.conti #password{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 140%;
+    outline: none;
+    border:none;
+    border-radius: 9px;
+}
+.conti #email{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 140%;
+    outline: none;
+    border:none;
+    border-radius: 9px;
+}
+.conti button{
+    margin-top: 15px;
+    font-size: 20px;
+    font-size: 20px;
+    margin-left: 120px;
+    padding: 8px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}

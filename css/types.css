@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    height: 16vh;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav img{
+    height: 16vh;
+    width: 8vw;
+    padding: 10px;
+    border-radius: 50%;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+}
+.nav ul .active{
+    color: yellow;
+    height: 20px;
+    background-color: transparent;
+}
+.nav ul .active:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s ease;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.04);
+}
+.nav #search{
+    height: 8vh;
+    width: 30vw;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius:9px
+}
+.nav #search::placeholder{
+    font-size: 16px;
+    padding:10px
+}
+.nav button{
+    height: 40px;
+    width: 100px;
+    margin-top: 34px;
+    margin-left: 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+.nav button a{
+    text-decoration: none;
+    color: #000;
+  }
+  .nav button a:hover{
+    color: #fff;
+  }
+.nav button:hover{
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/* nav bar end */
+/* first container start */
+.container3{
+    height:25vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+.container3 p{
+    padding: 10px;
+    
+}
+.container{
+    height: 150vh;
+    width: 100%;
+    margin-top: 2px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container .parent1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* child 1 */
+.container .parent1 .child1{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+}
+.container .parent1 .child1 ol{
+    margin-left: 40px;
+}
+.container .parent1 .child1 ol li{
+    margin-top: 15px;
+}
+/* child 2 */
+.container .parent1 .child2{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent1 .child2 ol{
+    margin-left: 40px;
+}
+.container .parent1 .child2 ol li{
+    margin-top: 15px;
+}
+/* child 3 */
+.container .parent1 .child3{
+    height: 50vh;
+    width: 20%;
+    background-color:#fff;
+    color: #000;
+}
+.container .parent1 .child3 ol{
+    margin-left: 40px;
+}
+.container .parent1 .child3 ol li{
+    margin-top: 15px;
+}
+/* child 4 */
+.container .parent1 .child4{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent1 .child4 ol{
+    margin-left: 40px;
+}
+.container .parent1 .child4 ol li{
+    margin-top: 15px;
+}
+/* child 5 */
+.container .parent1 .child5{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent1 .child5 ol{
+    margin-left: 40px;
+}
+.container .parent1 .child5 ol li{
+    margin-top: 15px;
+}
+/* first container end */
+/* parent 2 */
+.container .parent2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* child 6 */
+.container .parent2 .child6{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent2 .child6 ol{
+    margin-left: 40px;
+}
+.container .parent2 .child6 ol li{
+    margin-top: 15px;
+}
+/* child 7 */
+.container .parent2 .child7{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent2 .child7 ol{
+    margin-left: 40px;
+}
+.container .parent2 ol li{
+    margin-top: 15px;
+}
+/* child 8 */
+.container .parent2 .child8{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent2 .child8 ol{
+    margin-left: 40px;
+}
+.container .parent2 .child8 ol li{
+    margin-top: 15px;
+}
+/* child 9 */
+.container .parent2 .child9{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent2 .child9 ol{
+    margin-left: 40px;
+}
+.container .parent2 .child9 ol li{
+    margin-top: 15px;
+}
+/* child 10 */
+.container .parent2 .child10{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent2 .child10 ol{
+    margin-left: 40px;
+}
+.container .parent2 .child10 ol li{
+    margin-top: 15px;
+}
+/* parent 3 */
+.container .parent3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .parent3 .child1{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent3 .child1 ol{
+    margin-left: 40px;
+}
+.container .parent3 .child1 ol li{
+    margin-top: 15px;
+}
+.container .parent3 .child2{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent3 .child2 ol{
+    margin-left: 40px;
+}
+.container .parent3 .child2 ol li{
+    margin-top: 15px;
+}
+.container .parent3 .child9{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent3 .child9 ol{
+    margin-left: 40px;
+}
+.container .parent3 .child9 ol li{
+    margin-top: 15px;
+}
+.container .parent3 .child10{
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+.container .parent3 .child10 ol{
+    margin-left: 40px;
+}
+.container .parent3 .child10 ol li{
+    margin-top: 15px;
+}
